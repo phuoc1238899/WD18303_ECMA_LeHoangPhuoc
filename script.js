@@ -37,7 +37,7 @@ fetch("https://api.publicapis.org/entries")
 
 
             array.forEach(element => {
-                console.log(data.Description);
+                console.log(element.Description);
                 child_html += `<li> ${element.Description} </li>`;
             });
             child_html += `</ul>`;
