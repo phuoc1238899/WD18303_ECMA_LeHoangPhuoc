@@ -10,10 +10,10 @@ fetch("https://65929f4fbb129707198fe18e.mockapi.io/tinhpv10/students")
                 let row = document.createElement("tr");
 
                 row.innerHTML = `
-          <th scope="row">${index + 1}</th> // Hiển thị số thứ tự của hàng
-          <td>${element.avatar}</td> // Hiển thị avatar của sinh viên
-          <td>${element.name}</td> // Hiển thị tên của sinh viên
-          <td>${element.createdAt}</td> // Hiển thị ngày tạo sinh viên
+          <th scope="row">${index}</th> 
+          <td>${element.avatar}</td> 
+          <td>${element.name}</td> 
+          <td>${element.createdAt}</td> 
         `;
 // Thêm phần tử <tr> vào phần tử <tbody> trong bảng
                 tableBody.appendChild(row);
