@@ -46,25 +46,25 @@ sayHello2();
 //     })
 
 // // bai 4
-
 fetch("https://datausa.io/api/data?drilldowns=Nation&measures=Population")
     .then(function(response) {
         response.json().then(function(data1) {
             let array = data1.data;
             // Lấy tham chiếu đến phần tử <tbody> trong bảng có lớp CSS là "table"
-            let tableBody = document.querySelector(".table tbody");
-            // Duyệt qua từng phần tử trong mảng array
+            let tableBody = document.querySelector(".table-body");
+            let html = "";
+
             array.forEach((element, index) => {
-                // Tạo một phần tử <tr> mới
-                let row = document.createElement("tr");
-                row.innerHTML = `
-             <th scope="row">${index + 1}</th>
-             <td>${element.Nation}</td>
-             <td>${element.Year}</td>
-             <td>${element.Population}</td>
-           `;
-                // Thêm phần tử <tr> vào phần tử <tbody> trong bảng
-                tableBody.appendChild(row);
+                html += `
+              <tr>
+                <th scope="row">${index}</th>
+                <td>${element.Nation}</td>
+                <td>${element.Year}</td>
+                <td>${element.Population}</td>
+              </tr>
+            `;
             });
+
+            tableBody.innerHTML = html;
         });
     });
