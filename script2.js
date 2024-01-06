@@ -13,7 +13,7 @@ fetch("https://65929f4fbb129707198fe18e.mockapi.io/tinhpv10/students")
             html += `
         <tr>
           <th scope="row">${index}</th>
-          <td>${element.avatar}</td>
+          <td><img src="${ element.avatar}" alt=""> </td>
           <td>${element.name}</td>
           <td>${element.createdAt}</td>
         </tr>
