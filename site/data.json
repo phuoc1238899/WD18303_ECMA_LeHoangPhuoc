@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Magnam Tiste",
+      "category": "Starters",
+      "price": 5.95,
+      "sale": 0,
+      "image": "assets/img/gallery/popular1.png",
+      "description": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": 2,
+      "name": "New Item",
+      "category": "Starters",
+      "price": 9.99,
+      "sale": 0,
+      "image": "assets/img/gallery/popular2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": 3,
+      "name": "Laboriosam Direva",
+      "category": "Starters",
+      "price": 9.95,
+      "sale": 0,
+      "image": "assets/img/gallery/popular3.png",
+      "description": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": 4,
+      "name": "Est Eligendi",
+      "category": "Starters",
+      "price": 8.95,
+      "sale": 0,
+      "image": "assets/img/gallery/popular4.png",
+      "description": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": 5,
+      "name": "Eos Luibusdam",
+      "category": "Starters",
+      "price": 12.95,
+      "sale": 0,
+      "image": "assets/img/gallery/popular5.png",
+      "description": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": 6,
+      "name": "Eos Luibusdam",
+      "category": "Starters",
+      "price": 12.95,
+      "sale": 0,
+      "image": "assets/img/gallery/popular6.png",
+      "description": "Lorem, deren, trataro, filede, nerada"
+    }
+  ]
+}
