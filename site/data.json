@@ -53,6 +53,33 @@
       "sale": 0,
       "image": "assets/img/gallery/popular6.png",
       "description": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": 7,
+      "name": "Est Eligendi",
+      "category": "Starters",
+      "price": 8.95,
+      "sale": 0,
+      "image": "assets/img/gallery/popular7.png",
+      "description": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": 8,
+      "name": "Eos Luibusdam",
+      "category": "Starters",
+      "price": 12.95,
+      "sale": 0,
+      "image": "assets/img/gallery/popular8.png",
+      "description": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": 9,
+      "name": "Eos Luibusdam",
+      "category": "Starters",
+      "price": 12.95,
+      "sale": 0,
+      "image": "assets/img/gallery/popular10.jpg",
+      "description": "Lorem, deren, trataro, filede, nerada"
     }
   ]
 }

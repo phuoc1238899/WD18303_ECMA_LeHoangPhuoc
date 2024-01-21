@@ -11,7 +11,7 @@ fetch("data.json")
       <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
       <div class="single-popular-items mb-50 text-center">
           <div class="popular-img">
-              <img src="${item.image}" alt="">
+              <img src="${item.image}" width= "100px" height="300px"alt="">
               <div class="img-cap">
                   <span>Add to cart</span>
               </div>
