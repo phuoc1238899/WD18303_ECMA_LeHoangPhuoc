@@ -1,0 +1,205 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Đồng hồ nữ mới"
+    },
+    {
+      "id": "2",
+      "name": "Đồng hồ nam"
+    },
+    {
+      "id": "3",
+      "name": "Đồng hồ nữ"
+    },
+    {
+      "id": "4",
+      "name": "Đồng hồ xanh"
+    },
+    {
+      "id": "5",
+      "name": "Đồng hồ vàng"
+    },
+    {
+      "id": "6",
+      "name": "Đồng hồ tím"
+    },
+    {
+      "id": "7",
+      "name": "Đồng hồ hồng"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Magnam Tiste",
+      "price": "50000",
+      "image": "assets/img/gallery/popular9.jpg",
+      "categories": "Đồng hồ treo tường"
+    },
+    {
+      "id": "2",
+      "name": "New Item",
+      "categories": "Đồng hồ treo tường",
+      "price": "70000",
+      "image": "assets/img/gallery/popular2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": "3",
+      "name": "Laboriosam Direva",
+      "categories": "Đồng hồ treo tường",
+      "price": "90000",
+      "image": "assets/img/gallery/popular3.png",
+      "description": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": "4",
+      "name": "Est Eligendi",
+      "categories": "Đồng hồ treo tường",
+      "price": "40000",
+      "image": "assets/img/gallery/popular4.png",
+      "description": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": "5",
+      "name": "Eos Luibusdam",
+      "categories": "Đồng hồ treo tường",
+      "price": "100000",
+      "image": "assets/img/gallery/popular5.png",
+      "description": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": "6",
+      "name": "Eos Luibusdam",
+      "categories": "Đồng hồ treo tường",
+      "price": "120000",
+      "image": "assets/img/gallery/popular6.png",
+      "description": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": "7",
+      "name": "Est Eligendi",
+      "categories": "Đồng hồ xanh",
+      "price": "70000",
+      "image": "assets/img/gallery/popular7.png",
+      "description": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": "8",
+      "name": "Eos Luibusdam",
+      "categories": "Đồng hồ xanh",
+      "price": "200000",
+      "image": "assets/img/gallery/popular8.png",
+      "description": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": "9",
+      "name": "Eos Luibusdam",
+      "categories": "Đồng hồ xanh",
+      "price": "600000",
+      "image": "assets/img/gallery/popular10.jpg",
+      "description": "Lorem, deren, trataro, filede, nerada"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customer_name": "Minh Nhí",
+      "customer_address": "Trà Vinh",
+      "customer_email": "Nhi12@gmail.com",
+      "customer_phone_number": "03456789",
+      "created_date": "2024-01-23",
+      "status": "đang xử lý"
+    },
+    {
+      "id": "2",
+      "customer_name": "Kim Toàn",
+      "customer_address": "Hà Nội",
+      "customer_email": "KT1782@gmail.com",
+      "customer_phone_number": "098654321",
+      "created_date": "2024-01-22",
+      "status": "hoàn thành"
+    },
+    {
+      "id": "3",
+      "customer_name": "Nam Hà",
+      "customer_address": "TP.HCM",
+      "customer_email": "nam878@gmail.com",
+      "customer_phone_number": "555-1234",
+      "created_date": "2024-01-21",
+      "status": "đã gửi hàng"
+    },
+    {
+      "id": "4",
+      "customer_name": "Hữu Việt",
+      "customer_address": "Đà Nẵng",
+      "customer_email": "huuviet9@gmail.com",
+      "customer_phone_number": "777-4321",
+      "created_date": "2024-01-20",
+      "status": "đang xử lý"
+    },
+    {
+      "id": "5",
+      "customer_name": "Văn Nam",
+      "customer_address": "Hồ Chí Minh",
+      "customer_email": "alicej@gmail.com",
+      "customer_phone_number": "999-5555",
+      "created_date": "2024-01-19",
+      "status": "hoàn thành"
+    },
+    {
+      "id": "6",
+      "customer_name": "Trần Nguyên",
+      "customer_address": "Hà Nội",
+      "customer_email": "anderson@gmail.com",
+      "customer_phone_number": "111-2222",
+      "created_date": "2024-01-18",
+      "status": "đã gửi hàng"
+    }
+  ],
+  "order_detail": [
+    {
+      "order_id": 1,
+      "product_id": "ABC123",
+      "quantity": 2,
+      "unit_price": 10.99,
+      "id": "f623"
+    },
+    {
+      "order_id": 1,
+      "product_id": "DEF456",
+      "quantity": 1,
+      "unit_price": 5.99,
+      "id": "a157"
+    },
+    {
+      "order_id": 2,
+      "product_id": "GHI789",
+      "quantity": 3,
+      "unit_price": 8.99,
+      "id": "33bf"
+    },
+    {
+      "order_id": 2,
+      "product_id": "JKL012",
+      "quantity": 1,
+      "unit_price": 12.99,
+      "id": "97a9"
+    },
+    {
+      "order_id": 3,
+      "product_id": "MNO345",
+      "quantity": 5,
+      "unit_price": 6.99,
+      "id": "89b7"
+    },
+    {
+      "order_id": 3,
+      "product_id": "PQR678",
+      "quantity": 2,
+      "unit_price": 9.99,
+      "id": "a7de"
+    }
+  ]
+}
